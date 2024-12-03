@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.App{
+  display: flex;
+
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+}
+.inner-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+
+.User{
+  display: flex;
+  gap:20px;
+  width: 100%;
+}
+.Select{
+  display: flex;
+  width: 100%;
+  gap:20px;
+}
+select{
+  max-width: 100%;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #F9F9F9;
+  padding: 11px 20px;
+  font-size: 14px;
+  border: 1px solid #BDBDBD;
+}
+input{
+  border-radius: 2px;
+  border: 1px solid #BDBDBD;
+  padding: 11px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #F9F9F9;
+  width: 100%;
+
+}
+Form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  max-width: 600px;
+  width: 100%;
+  gap:20px;
+}
+button{
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #23A6F0;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  
+  margin-top: 20px;
+}
+textarea{
+  width: 511px;
+  height: 150px;
+  background-color: #F9F9F9;
+  padding: 16px 26px;
+  font-size: 14px;
+  border: 1px solid #BDBDBD;
+}
+.Outer-Form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+  gap:40px;
+}
+h2{
+  font-size: 40px;
+}
+h5{
+  font-size: 16px;
+}
